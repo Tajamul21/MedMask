@@ -175,11 +175,11 @@ MedMask achieves state-of-the-art results across mammogram datasets with signifi
 
 We conduct all experiments with batch size 8 (for source_only stage, 8 labeled samples; for cross_domain_mae and MRT teaching stage, 8 labeled samples and 8 unlabeled samples), on 4 NVIDIA A100 GPUs.
 
-| dataset    | encoder layer | decoder layer | R@0.3 | weights |
-| ---------- | ------------- | ------------- | ----- | ------- |
-| RSNA-BSD1K | 6             | 6             | 0.886 |         |
-| DDSM       | 6             | 6             | 0.718 |         |
-| INBREAST   | 6             | 6             | 0.888 |         |
+| Dataset    | Encoder Layer | Decoder Layer | R@0.3 | Weights                                                                                          |
+| ---------- | ------------- | ------------- | ----- | ------------------------------------------------------------------------------------------------ |
+| RSNA-BSD1K | 6             | 6             | 0.886 | [Download](https://drive.google.com/drive/folders/1utNXOqhsSTscPfrbwwfyZI-f9m7FCTSh?usp=sharing) |
+| DDSM       | 6             | 6             | 0.718 | [Download](https://drive.google.com/drive/folders/1utNXOqhsSTscPfrbwwfyZI-f9m7FCTSh?usp=sharing) |
+| INBREAST   | 6             | 6             | 0.888 | [Download](https://drive.google.com/drive/folders/1utNXOqhsSTscPfrbwwfyZI-f9m7FCTSh?usp=sharing) |
 
 ## 📝 Citation
 
