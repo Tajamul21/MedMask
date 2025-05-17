@@ -2,11 +2,13 @@
     <img src="Framework_Architecture.png" style="width: 100vw; height: auto;">
 </div>
 
+<a href="#">
 <h1 align="left">
-   MedMask: A Self-Supervised Masking Framework for Medical Image Detection Using VFMs.
+   🩺 MedMask: A Self-Supervised Masking Framework for Medical Image Detection Using VFMs
 </h1>
+</a>
 
-# What is MedMask?
+# 🎯 What is MedMask?
 
 MedMask is a self-supervised masking framework designed to enhance medical image detection, particularly for breast cancer detection from mammograms (BCDM). It addresses the challenge of limited annotated datasets by leveraging masked autoencoders (MAE) and vision foundation models (VFMs) within a transformer-based architecture. The framework employs a customized MAE module that masks and reconstructs multi-scale feature maps, allowing the model to learn domain-specific characteristics more effectively. Additionally, MedMask integrates an expert contrastive knowledge distillation technique, utilizing the zero-shot capabilities of VFMs to improve feature representations. By combining self-supervised learning with knowledge distillation, MedMask achieves state-of-the-art performance on publicly available mammogram datasets like INBreast and DDSM, demonstrating significant improvements in sensitivity. Its applicability extends beyond medical imaging, showcasing generalizability to natural image tasks.
 
@@ -193,7 +195,7 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 
 @misc{medmask2025,
   title={MedMask: A Self-Supervised Masking Framework for Medical Image Detection Using VFMs},
-  author={Suhaib A Salmani et al.},
+  author={Tajamul Ashraf and Suhaib A Salmani and Janibul Bashir and Mohsin Peerzada.},
   year={2025},
   url={https://github.com/Tajamul21/MedMask}
 }
