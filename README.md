@@ -186,19 +186,7 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 ## 📝 Citation
 
 ```bibtex
-@article{biomedparse2024,
-  title={A Foundation Model for Joint Segmentation, Detection, and Recognition of Biomedical Objects Across Nine Modalities},
-  author={Microsoft Research},
-  journal={Nature Methods},
-  year={2024}
-}
 
-@misc{medmask2025,
-  title={MedMask: A Self-Supervised Masking Framework for Medical Image Detection Using VFMs},
-  author={Tajamul Ashraf and Suhaib A Salmani and Janibul Bashir and Mohsin Peerzada.},
-  year={2025},
-  url={https://github.com/Tajamul21/MedMask}
-}
 ```
 
 ## Acknowledgements
